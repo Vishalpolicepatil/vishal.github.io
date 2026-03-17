@@ -8,19 +8,29 @@
 </head>
 <body>
 
-    <header>
-        <h1>Vishal</h1>
-        <p>Electronics Engineer | Analog & Embedded Systems</p>
-    </header>
+    <header class="navbar">
 
-    <section class="hero">
+    <div class="nav-left">
+        <img src="profile.jpg" class="nav-img">
+        <span class="nav-name">Vishal</span>
+    </div>
+
+    <div class="nav-right">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </div>
+
+</header>
+
+    <section id="home" class="hero">
     <img src="profile.jpg" alt="Vishal working on electronics" class="profile-img">
 
     <h2>Building Practical Electronics & Control Systems</h2>
     <p>I design circuits, simulate systems, and build real-world engineering solutions.</p>
 </section>
 
-    <section class="projects">
+   <section id="projects" class="projects">
         <h2>Projects</h2>
 
         <div class="card">
@@ -39,10 +49,13 @@
         <h2>About Me</h2>
         <p>I am passionate about analog design, embedded systems, and real-world circuit implementation.</p>
     </section>
-
     <footer>
         <p>Contact: vishalpatil250130@email.com</p>
     </footer>
+    <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: vishalpatil250130@email.com</p>
+</section>
 
 </body>
 </html>
