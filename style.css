@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #ffffff;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+.hero {
+    padding: 60px;
+    text-align: center;
+}
+
+.projects {
+    padding: 40px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #333;
+}
+
+.about {
+    padding: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #222;
+}

@@ -1,135 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Vishal Patil | Portfolio</title>
-
-<style>
-body {
-    margin: 0;
-    font-family: Arial;
-    background-color: #0d1117;
-    color: white;
-    display: flex;
-}
-
-/* RIGHT SIDE NAVBAR */
-.sidebar {
-    width: 200px;
-    background: #161b22;
-    height: 100vh;
-    position: fixed;
-    right: 0;
-    top: 0;
-    padding-top: 50px;
-}
-
-.sidebar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    text-align: center;
-}
-
-.sidebar a:hover {
-    background: #30363d;
-}
-
-/* MAIN CONTENT */
-.content {
-    margin-right: 200px;
-    padding: 40px;
-    width: 100%;
-}
-
-/* HOME SECTION */
-.home {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-.home img {
-    width: 250px;
-    border-radius: 10px;
-}
-
-/* CONTACT FORM */
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-}
-
-input, textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-button {
-    padding: 10px;
-    background: #58a6ff;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-h1 {
-    color: #58a6ff;
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal | Electronics Engineer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<!-- RIGHT NAV -->
-<div class="sidebar">
-    <a href="#home">Home</a>
-    <a href="#courses">Courses</a>
-    <a href="#contact">Contact</a>
-</div>
+    <header>
+        <h1>Vishal</h1>
+        <p>Electronics Engineer | Analog & Embedded Systems</p>
+    </header>
 
-<!-- MAIN CONTENT -->
-<div class="content">
+    <section class="hero">
+        <h2>Building Practical Electronics & Control Systems</h2>
+        <p>I design circuits, simulate systems, and build real-world engineering solutions.</p>
+    </section>
 
-<!-- HOME -->
-<section id="home" class="home">
-    <img src="yourphoto.jpg" alt="My Photo">
+    <section class="projects">
+        <h2>Projects</h2>
 
-    <div>
-        <h1>Hi, I'm Vishal 👋</h1>
-        <p>
-            I am an Electronics and Communication Engineering student at UVCE.
-            Passionate about Analog IC Design, ASIC development, and electronics research.
-        </p>
-    </div>
-</section>
+        <div class="card">
+            <h3>PID Motor Control</h3>
+            <p>Designed and simulated a PID controller using LTspice for DC motor speed control.</p>
+        </div>
 
-<!-- COURSES -->
-<section id="courses">
-    <h1>Courses</h1>
-    <p>Analog Electronics, VLSI Design, Control Systems, Embedded Systems</p>
-</section>
+        <div class="card">
+            <h3>ESC Control with Arduino</h3>
+            <p>Implemented ESC speed control using Arduino PWM signals.</p>
+        </div>
 
-<!-- CONTACT -->
-<section id="contact">
-    <h1>Contact Me</h1>
+    </section>
 
-    <form>
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <input type="text" placeholder="Subject" required>
-        <textarea rows="5" placeholder="Message"></textarea>
-        <button type="submit">Send</button>
-    </form>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am passionate about analog design, embedded systems, and real-world circuit implementation.</p>
+    </section>
 
-</section>
-
-</div>
+    <footer>
+        <p>Contact: your@email.com</p>
+    </footer>
 
 </body>
 </html>
