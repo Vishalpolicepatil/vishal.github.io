@@ -46,3 +46,58 @@ footer {
     border-radius: 10%;
     margin-bottom: 20px;
 }
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+}
+
+/* LEFT SIDE */
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nav-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* RIGHT SIDE */
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+/* ACTIVE BUTTON (RED BOX) */
+.nav-link.active {
+    background: red;
+    color: white;
+}
+
+/* HOVER EFFECT */
+.nav-link:hover {
+    background: red;
+    color: white;
+}
